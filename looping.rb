@@ -1,5 +1,9 @@
 def looping
-	#your code here
+	loop do |spell|
+			spell = "Wingardium Leviosa!"
+			puts spell
+			sleep 1
+	end
 end
 
-#call your method here
+looping
